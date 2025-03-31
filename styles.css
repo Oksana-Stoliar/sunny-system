@@ -1,0 +1,161 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    line-height: 1.5;
+    font-size: 16px;
+    background-color: #edf2f7;
+}
+
+.header { 
+  text-align: center; 
+}
+
+ul { 
+  padding: 0;
+}
+
+li {
+  list-style: none;
+  display: block;
+  font-size: 16px;
+  margin-right: 8px;
+}
+
+h1 {
+  color: blue;
+  background-color: rgb(235, 209, 94);
+}
+
+h4 {
+  text-align: center;
+}
+
+.sun {
+text-align: center;
+}
+
+.p1 {
+  font-size: 18px;
+}
+
+.bloc {
+  margin: 10px;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.photo {
+  max-width: 500px;
+  margin: 10px;
+}
+
+.photo img { 
+  width: 100%;
+}
+
+.data {
+  font-size: 24px;
+}
+
+.data ul {
+  margin-top: 0;
+}
+
+.menu {
+  grid-gap: 8px;
+  padding: 15px;
+  margin: 0;
+  margin-bottom: 20px;
+  list-style: none;
+  border-radius: 4px;
+  background-color: rgb(142, 147, 247);
+  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+  /* Створення ul.menu контейнером Flex */
+  display: flex;
+}
+
+.menu .link {
+  display: block;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 4px;
+  text-decoration: none;
+  color: black;
+  background-color: #fff;
+  font-size: 24px;
+}
+
+.menu .link:hover {
+  text-decoration: underline;
+}
+
+.menu.center {
+  justify-content: center;
+}
+
+.container1 {
+  display: flex;
+  gap: 8px;
+  max-width: 1800px;
+  margin: 0 auto;
+}
+
+.sidebar {
+  flex-basis: 200px;
+}
+
+.content1 {
+  flex-grow: 1;
+}
+
+.sidebar,
+.content1 {
+  height: 300px;
+  padding: 20px;
+  border-radius: 4px;
+  background-color: #fff;
+  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 320px;
+  margin: 8px;
+  padding: 10px;
+  background-color: #fff;
+  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+}
+
+.card>.content2 {
+  flex-grow: 1;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 2px dashed rgb(76, 25, 203);
+  border-radius: 4px;
+}
+
+.card>.meta {
+  padding: 10px;
+  text-align: center;
+  background-color: rgb(142, 147, 247);
+  color: white;
+  border-radius: 4px;
+}
+
+.container2 {
+  display: flex;
+  justify-content: center;
+  margin: -8px;
+}
